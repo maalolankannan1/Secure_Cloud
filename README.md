@@ -1,10 +1,7 @@
-# Secure-File-Storage-Using-Hybrid-Cryptography
-
-## Objective: To Achieve a secure plateform for storing of files on Cloud using Hybrid Cryptography.</br>
+# Secure Storage On Google Drive Using Hybrid Cryptography
 
 # Methodology
 
-To achieve the above goal, the following methodology needs to be followed:</br>
 1. Load the file on the server.</br>
 2. Dividing the uploaded file into N parts.</br>
 3. Encrypting all the parts of the file using any one of the selected algorithms (Algorithm is changed with every part in round robin fashion).</br>
@@ -21,6 +18,7 @@ To restore the file, follow the following steps:</br>
 # How to Run
 
 **NOTE:** The project is based on Python 2.7.15 plateform running it on any other plateform might create some issues.</br>
+Create a python3 virtual environment to run the file that helps in uploading and downloading file from the google drive.
 
 Step 1: Install Requirements</br>
 `pip install -r requirements.txt`</br>
