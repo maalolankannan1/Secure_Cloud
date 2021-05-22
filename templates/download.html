@@ -1,7 +1,10 @@
 <html>
-	<body>
+	<body style="background-image: url('{{ url_for('static', filename='clbg.png') }}');
+				background-repeat: no-repeat;
+  				background-attachment: fixed;
+  				background-size: cover;">
 		<center>
-			<h1> Secure Cloud File Storage Using Hybrid Cryptography </h1><br><br>
+			<h1 style="color: rgb(188, 242, 61);"> Secure Cloud File Storage Using Hybrid Cryptography </h1><br><br>
 			<form action = "/download_data" method = "POST" enctype = "multipart/form-data">
 				<input type = "file" name = "file" required/>
 				<br><br><input type = "Submit"/>
